@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Register | Zenith Global</title>
+    <link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+    <div class="logo-container">
+        <img src="assets/logo/logo.png" alt="Zenith Global">
+    </div>
+
+    <div class="auth-box">
+        <h2>Create Account</h2>
+        <form id="regForm">
+            <input type="text" id="userName" placeholder="Username" required>
+            <input type="text" id="fName" placeholder="First Name" required>
+            <input type="text" id="lName" placeholder="Last Name" required>
+            <select id="country" required><option value="" disabled selected>Select Country</option></select>
+            <input type="tel" id="phone" placeholder="Phone Number" required>
+            <input type="email" id="email" placeholder="Email Address" required>
+            <input type="text" id="refCode" placeholder="Referral Code (Optional)">
+            <input type="password" id="pass" placeholder="Password" required>
+            <input type="password" id="cPass" placeholder="Confirm Password" required>
+            
+            <div class="captcha-box">
+                <span id="captchaText"></span>
+                <input type="text" id="captchaInput" placeholder="Enter Answer" required>
+            </div>
+            <button type="submit" id="regBtn">Create Account</button>
+        </form>
+        <p>Already have an account? <a href="login.html">Login here</a></p>
+    </div>
+    <script type="module" src="js/auth/register.js"></script>
+</body>
+</html>
