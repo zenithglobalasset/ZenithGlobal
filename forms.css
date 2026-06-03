@@ -1,5 +1,0 @@
-.auth-container { max-width: 400px; margin: 50px auto; padding: 20px; border: 1px solid #ddd; border-radius: 8px; text-align: center; }
-.logo { width: 120px; margin-bottom: 20px; }
-input, select { width: 100%; padding: 10px; margin: 10px 0; border: 1px solid #ccc; border-radius: 4px; }
-button { width: 100%; padding: 10px; background: #007bff; color: white; border: none; cursor: pointer; }
-#captcha-container { margin: 10px 0; font-weight: bold; background: #eee; padding: 10px; }
