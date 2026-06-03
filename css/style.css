@@ -1,7 +1,0 @@
-/* css/style.css */
-body { font-family: sans-serif; display: flex; justify-content: center; padding: 20px; background-color: #f4f4f4; }
-.auth-container { background: #fff; padding: 30px; border-radius: 10px; width: 100%; max-width: 400px; text-align: center; }
-.logo { width: 150px; margin-bottom: 20px; }
-input, select { width: 100%; padding: 10px; margin: 10px 0; border: 1px solid #ddd; border-radius: 5px; box-sizing: border-box; }
-button { width: 100%; padding: 10px; background-color: #007bff; color: white; border: none; border-radius: 5px; cursor: pointer; }
-.captcha-box { display: flex; align-items: center; justify-content: space-between; margin: 10px 0; background: #eee; padding: 10px; }
